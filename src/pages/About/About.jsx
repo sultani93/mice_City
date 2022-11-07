@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutPic from '../../components/images/Untitled-1.jpg'
+// import aboutPic from '../../components/images/Untitled-1.jpg'
 import './About.css'
 
 const About = () => {

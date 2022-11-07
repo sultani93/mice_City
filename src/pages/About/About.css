@@ -16,10 +16,9 @@
   left: 0;
   right: 0;
 }
-.about_svg svg {
+/* .about_svg svg {
   /* width: 100%;
   height: 100%; */
-}
 
 .cls-5 {
   fill: hsla(206, 32%, 63%, 0.105);
