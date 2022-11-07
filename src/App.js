@@ -8,6 +8,7 @@ import Suggestions from './pages/Tekliflerimiz/Suggestions'
 import Mice from './pages/Mice/Mice'
 import Dostoprimitelstvo from './pages/Dostoprimitelstvo/Dostoprimitelstvo'
 import Contact from './pages/Contact/Contact'
+import Partnership from './pages/Partnership/Partnership'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Portfolio />
       <Mice />
       <Dostoprimitelstvo />
+      <Partnership />
       <Contact />
       <Footer />
     </div>

@@ -1,0 +1,42 @@
+.partnership {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partnership .container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.partnership .content {
+  width: 1100px;
+  margin: 0 auto;
+}
+.partnership h2 {
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+.partnership .content border {
+  width: 400px;
+}
+.partner_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 3rem auto;
+  row-gap: 3rem;
+}
+.partner_list .partner_item {
+  flex: calc(100% / 4);
+}
+.partner_list .partner_item img {
+  width: 100px;
+  height: 100%;
+  object-fit: contain;
+}
