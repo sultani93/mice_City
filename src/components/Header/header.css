@@ -7,7 +7,7 @@
   z-index: 1;
   transition: 0.3s ease-in;
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: #f8f8f8;
 }
 
 .header .navbar {
@@ -21,6 +21,13 @@
 }
 .header .nav_menu {
   display: flex;
+  flex-direction: row;
+}
+.header .nav_menu ul {
+  display: flex;
+}
+.header .nav_menu select {
+  background-color: transparent;
 }
 .header .nav_item {
   padding: 1rem;

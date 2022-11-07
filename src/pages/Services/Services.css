@@ -1,0 +1,94 @@
+.services {
+  height: 100vh;
+  background-color: rgb(240 240 240 / 26%);
+  background-image: url('../../components/images/mice_project.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services .container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.services .content {
+  width: 1100px;
+  margin: 0 auto;
+}
+.our_services {
+  text-align: center;
+}
+.our_services h2 {
+  font-size: 48px;
+  padding: 8px;
+  color: black;
+  background-color: rgb(219 171 168);
+  width: fit-content;
+  margin: 0 auto;
+}
+.our_services p {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.services_card {
+  background-color: #fff;
+  border-radius: 24px;
+  display: flex;
+  padding: 2.5rem 1rem;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.services_heading {
+  flex-grow: 1;
+  flex-basis: calc(25% - 32px);
+  transition: 0.3s;
+  padding: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.services_heading:hover {
+  background-color: rgb(163 215 237);
+  transform: scale(1.01);
+}
+.services_heading h3 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 1.5rem auto;
+  font-weight: 400;
+  background-color: rgb(219 171 168);
+  width: fit-content;
+  padding: 12px;
+  color: #000;
+}
+.services_heading:hover p,
+.services_heading:hover h3 {
+  color: #fff;
+}
+
+.services_heading p {
+  width: 100%;
+  line-height: 24px;
+}
+.services_heading button {
+  width: 100%;
+  border: 0;
+  background-color: rgb(163 215 237);
+  color: #fff;
+  padding: 12px 8px;
+  border-radius: 12px;
+  margin-top: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.services_heading:hover button {
+  background-color: #fff;
+  color: rgb(163 215 237);
+}

@@ -10,25 +10,27 @@ const Header = () => {
         <Link>
           <img src={logo} alt='logo' />
         </Link>
-        <ul className='nav_menu'>
-          <li className='nav_item'>
-            <Link>Home</Link>
-          </li>
-          <li className='nav_item'>
-            <Link>About</Link>
-          </li>
-          <li className='nav_item'>
-            <Link>Services</Link>
-          </li>
-          <li className='nav_item'>
-            <Link>Our Team</Link>
-          </li>
-          <li className='nav_item'>
-            <Link>Gallery</Link>
-          </li>
-          <li className='nav_item'>
-            <Link>Contact</Link>
-          </li>
+        <div className='nav_menu'>
+          <ul>
+            <li className='nav_item'>
+              <Link>Home</Link>
+            </li>
+            <li className='nav_item'>
+              <Link>About</Link>
+            </li>
+            <li className='nav_item'>
+              <Link>Services</Link>
+            </li>
+            <li className='nav_item'>
+              <Link>Our Team</Link>
+            </li>
+            <li className='nav_item'>
+              <Link>Gallery</Link>
+            </li>
+            <li className='nav_item'>
+              <Link>Contact</Link>
+            </li>
+          </ul>
           <select
             className='select_language'
             name='select_language'
@@ -38,7 +40,7 @@ const Header = () => {
             <option value='Aze'>Aze</option>
             <option value='Rus'>Rus</option>
           </select>
-        </ul>
+        </div>
       </nav>
     </header>
   )
