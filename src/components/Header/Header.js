@@ -1,132 +1,50 @@
-import React, { useState } from 'react'
 import './header.css'
 import { Link } from 'react-scroll'
 import logo from '../../components/images/logo.PNG'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
-  const [sidebar, setSideBar] = useState(false)
-
-  const changeNavbar = () => {
-    const scrollValue = document.documentElement.scrollTop
-    if (scrollValue > 100) {
-      setSideBar(true)
-    } else {
-      setSideBar(false)
-    }
-  }
-
-  window.addEventListener('scroll', changeNavbar)
-
   return (
     <header className='header'>
       <nav className='navbar'>
-        <Link
-          className='logo'
-          to='home'
-          spy={true}
-          smooth={true}
-          duration={500}
-        >
+        <NavLink to='/' exact>
           <img src={logo} alt='logo' />
-        </Link>
-        <div className={sidebar ? 'invisibleNav' : 'nav_menu'}>
+        </NavLink>
+        <div className='nav_menu'>
           <ul className='nav_list'>
             <li className='nav_item'>
-              <Link to='home' spy={true} smooth={true} duration={500}>
+              <NavLink to='/' exact>
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className='nav_item'>
-              <Link
-                to='about'
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                About
-              </Link>
+              <NavLink to='/about'> About </NavLink>
             </li>
             <li className='nav_item'>
-              <Link
-                to='services'
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                Services
-              </Link>
+              <NavLink to='/services'> Services </NavLink>
             </li>
             <li className='nav_item'>
-              <Link
-                to='ourTeam'
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                Our Team
-              </Link>
+              <NavLink to='/ourTeam'> Our Team </NavLink>
             </li>
             <li className='nav_item galleryNav'>
-              <Link
-                to='gallery'
-                spy={true}
-                smooth={true}
-                // offset={-100}
-                duration={500}
-              >
-                Gallery
-              </Link>
+              <NavLink> Gallery</NavLink>
+
               <ul className='galleryDrop'>
                 <li>
-                  {' '}
-                  <Link
-                    to='portfolio'
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                  >
-                    Portfolio
-                  </Link>
+                  <NavLink to='/portfolio'> Portfolio</NavLink>
                 </li>
                 <li>
-                  {' '}
-                  <Link
-                    to='mice'
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                  >
-                    MICE плоъщадки
-                  </Link>
+                  <NavLink to='/mice'> MICE плоъщадки</NavLink>
                 </li>
                 <li>
-                  <Link
-                    to='dostprime'
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                  >
+                  <NavLink to='/dostoprimitelstvo'>
                     Достопримечательности
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </li>
             <li className='nav_item'>
-              <Link
-                to='contact'
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                Contact
-              </Link>
+              <NavLink to='/contact'> Contact</NavLink>
             </li>
           </ul>
           <div className='languagePart'>
@@ -153,11 +71,6 @@ const Header = () => {
               <option value='Rus'>Rus</option>
             </select>
           </div>
-        </div>
-        <div className={sidebar ? 'sidebarIcon' : 'invisibleNav'}>
-          <button type='button'>
-            <span></span>
-          </button>
         </div>
       </nav>
     </header>

@@ -1,5 +1,4 @@
 .header {
-  position: fixed;
   height: 80px;
   width: 100%;
   top: 0;
@@ -118,6 +117,7 @@
   background: #fff;
   border-radius: 50%;
   padding: 12px;
+  z-index: 10;
 }
 
 .sidebarIcon button {
@@ -152,7 +152,6 @@
 }
 .sidebarIcon span::after {
   content: '';
-
   stroke-linecap: round;
   position: absolute;
   width: 80%;
@@ -163,4 +162,36 @@
   stroke-linejoin: round;
   stroke-width: 2px;
   background-color: black;
+}
+.side_menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.93);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  transition: 0.3s;
+}
+.side_list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 4rem;
+}
+.side_list .side_item {
+  color: #000;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.side_menu .languagePart .select_language {
+  background: none;
 }
