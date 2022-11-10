@@ -4,9 +4,9 @@
   width: 100%;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 1;
   transition: 0.3s ease-in;
-  overflow: hidden;
   background-color: #f8f8f8;
 }
 
@@ -19,12 +19,18 @@
   height: 100%;
   padding: 0 1rem;
 }
+.logo {
+  cursor: pointer;
+}
 .header .nav_menu {
   display: flex;
   flex-direction: row;
 }
-.header .nav_menu ul {
+.header .nav_menu .nav_list {
   display: flex;
+}
+.header .nav_menu .nav_list li {
+  cursor: pointer;
 }
 .header .nav_menu select {
   background-color: transparent;
@@ -37,4 +43,124 @@
 .select_language {
   border: none;
   position: relative;
+}
+.galleryNav {
+  position: relative;
+  transition: 0.3s;
+}
+
+.galleryNav:hover .galleryDrop {
+  display: flex;
+}
+
+.galleryNav .galleryDrop {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  background: #fff;
+  padding: 4px 12px;
+  top: 3.5rem;
+  left: -65px;
+  border-radius: 12px;
+  color: gray;
+  box-shadow: 7px 8px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 8px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 8px 15px 0px rgba(0, 0, 0, 0.75);
+}
+.galleryNav .galleryDrop::before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 15px 15px 0px 15px;
+  border-color: #fff transparent transparent transparent;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: rotateX(180deg);
+}
+.galleryNav .galleryDrop li {
+  padding: 12px;
+}
+.galleryNav .galleryDrop li:not(:last-child) {
+  border-bottom: 1px solid #e3e3e3;
+}
+.languagePart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.languagePart span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  margin-left: 16px;
+}
+
+.languagePart .langIcon {
+  fill: rgb(72 153 187);
+}
+
+.invisibleNav {
+  display: none;
+}
+.sidebarIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.sidebarIcon button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+.sidebarIcon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.sidebarIcon span::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 6px;
+  left: 0;
+  stroke-linecap: round;
+  background-color: black;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+.sidebarIcon span::after {
+  content: '';
+
+  stroke-linecap: round;
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  left: 0;
+  top: 12px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+  background-color: black;
 }

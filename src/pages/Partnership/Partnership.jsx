@@ -29,7 +29,7 @@ const Partnership = () => {
     },
   ]
   return (
-    <div className='partnership'>
+    <div className='partnership' id='partnership'>
       <div className='container'>
         <div className='content'>
           <h2>Partnership</h2>

@@ -42,7 +42,7 @@ const Dostoprimitelstvo = () => {
     },
   ]
   return (
-    <div className='dostprime'>
+    <div className='dostprime' id='dostprime'>
       <div className='container'>
         <div className='content'>
           <div className='dost_info'>

@@ -42,7 +42,7 @@ const Portfolio = () => {
     },
   ]
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id='portfolio'>
       <div className='container'>
         <div className='content'>
           <div className='our_portfolio'>

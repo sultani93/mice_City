@@ -42,7 +42,7 @@ const Mice = () => {
     },
   ]
   return (
-    <div className='mice'>
+    <div className='mice' to='mice'>
       <div className='container'>
         <div className='content'>
           <div className='mice_plosadki'>

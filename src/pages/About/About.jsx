@@ -3,7 +3,7 @@ import aboutImg from '../../components/images/Untitled-2.jpg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='about1'>
         <div className='about-wrap'>
           <div className='aboutHeading'>

@@ -26,7 +26,7 @@ const servicesInfo = [
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       <div className='container'>
         <div className='content'>
           <div className='our_services'>

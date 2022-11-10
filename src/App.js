@@ -9,6 +9,7 @@ import Mice from './pages/Mice/Mice'
 import Dostoprimitelstvo from './pages/Dostoprimitelstvo/Dostoprimitelstvo'
 import Contact from './pages/Contact/Contact'
 import Partnership from './pages/Partnership/Partnership'
+import OurTeam from './pages/OurTeam/OurTeam'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Services />
       <Suggestions />
+      <OurTeam />
       <Portfolio />
       <Mice />
       <Dostoprimitelstvo />

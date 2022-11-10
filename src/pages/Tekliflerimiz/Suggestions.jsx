@@ -4,7 +4,7 @@ import Suggest from '../../components/Suggest/Suggest'
 
 const Suggestions = () => {
   return (
-    <div className='suggestion'>
+    <div className='suggestion' id='suggestion'>
       <div className='container'>
         <div className='content'>
           <div className='our_suggests'>
