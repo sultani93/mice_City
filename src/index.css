@@ -6,10 +6,22 @@
   --overlay: rgba(0, 0, 0, 0.7);
 }
 
+@font-face {
+  font-family: 'Bold';
+  src: local('Bold'),
+    url(./fonts/Artegra/ArtegraSans-Bold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Regular';
+  src: local('Regular'),
+    url(./fonts/Artegra/ArtegraSans-Regular.otf) format('truetype');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Regular;
 }
 ul {
   list-style-type: none;
