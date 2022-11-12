@@ -1,11 +1,5 @@
 .portfolio {
-  /* height: 100vh; */
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  margin-top: 4rem;
+  padding-top: 80px;
 }
 
 .portfolio .container {
@@ -23,10 +17,10 @@
 .our_portfolio h2 {
   font-size: 48px;
   padding: 8px;
-  color: black;
+  color: #172e40;
   background-color: rgb(219 171 168);
   width: fit-content;
-  margin: 0 auto;
+  margin: 2rem auto 0;
 }
 .our_portfolio > p {
   margin: 2rem auto;
@@ -35,6 +29,7 @@
 }
 .our_portfolio span {
   padding: 8px;
+  margin-top: 2rem;
   font-size: 18px;
   color: rgb(33 176 237);
   border-bottom: 1px solid rgb(33 176 237);

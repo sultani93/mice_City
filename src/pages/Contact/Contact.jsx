@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
       <h2>Contact</h2>
       <div className='contact_info'>
-        <form action=''>
+        <form>
           <div className='main_info'>
             <input type='text' placeholder='Name' />
             <input type='number' placeholder='Phone number' />

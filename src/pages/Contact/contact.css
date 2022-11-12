@@ -1,5 +1,5 @@
 .contact {
-  height: 100vh;
+  height: calc(100vh - 80px);
   position: relative;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
 .contact h2 {
   font-size: 48px;
   padding: 8px;
-  color: black;
+  color: #172e40;
   background-color: rgb(219 171 168);
   width: fit-content;
   margin: 0 auto;
@@ -40,7 +40,7 @@
   justify-content: space-between;
   margin-top: 3rem;
   gap: 3rem;
-  width: 750px;
+  width: 900px;
 }
 .contact_info .main_info {
   display: flex;
@@ -73,6 +73,7 @@
   background-color: #fff;
   padding: 16px 0 0 16px;
   outline: none;
+  resize: none;
 }
 .contact_second_info button {
   border: none;

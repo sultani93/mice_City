@@ -1,21 +1,24 @@
 .footer {
   width: 100%;
   background-color: #fbfbfb;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   height: 80px;
+  color: #172f40;
 }
 .footer .container {
   max-width: 1240px;
   margin: auto;
+  height: 100%;
 }
 .footer_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .footer_wrapper .logo {
-  height: 60px;
+  height: 100%;
 }
 
 .footer_wrapper .logo img {
@@ -27,14 +30,24 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 100%;
 }
 .footer .number_contact {
   margin-right: 32px;
+  height: 100%;
+}
+.footer_info ul,
+.contact_social {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .footer_info > ul:first-child {
   margin-right: 1rem;
 }
-.footer_info li {
+.footer_info li:not(:last-child) {
   margin-bottom: 1rem;
 }
 
