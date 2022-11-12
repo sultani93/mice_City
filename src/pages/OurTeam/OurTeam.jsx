@@ -70,13 +70,17 @@ const OurTeam = () => {
             <div className='teamDetails'>
               {team.map((item, index) => (
                 <div className='teamPart' key={index}>
-                  <div className='teamImg'>
-                    <img src={item.teamImg} alt='workerImg' />
-                  </div>
-                  <div className='teamInfo'>
-                    <p>{item.employer}</p>
-                    <p>{item.jobTitle}</p>
-                    <p>{item.jobDescription}</p>
+                  <div className='teamwrap'>
+                    <div className='team-absolute'>
+                      <div className='teamImg'>
+                        <img src={item.teamImg} alt='workerImg' />
+                      </div>
+                      <div className='teamInfo'>
+                        <p>{item.employer}</p>
+                        <p>{item.jobTitle}</p>
+                        <p>{item.jobDescription}</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}

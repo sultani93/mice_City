@@ -74,7 +74,6 @@ const About = () => {
                   concerts, etc.).
                 </p>
               </div>
-              asdfasfasdfasdfasdf
             </div>
           </div>
         </div>

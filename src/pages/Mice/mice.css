@@ -1,12 +1,12 @@
 .mice {
-  /* height: 100vh; */
+  height: calc(100vh - 80px);
   /* display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
   background: rgba(251, 251, 251, 1);
-  margin-top: 3rem;
+  padding-top: 80px;
 }
 
 .mice .container {
@@ -30,7 +30,7 @@
 }
 .mice_plosadki > p {
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: 650px;
   line-height: 24px;
 }
 

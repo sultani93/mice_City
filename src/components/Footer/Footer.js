@@ -3,16 +3,16 @@ import './footer.css'
 import logo from '../../components/images/logo.PNG'
 import wp from '../../components/images/whatsapp.png'
 import tl from '../../components/images/telegram.png'
-import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer className='footer'>
       <div className='container'>
         <div className='footer_wrapper'>
-          <Link>
+          <NavLink to='/home' className='logo'>
             <img src={logo} alt='logo' />
-          </Link>
+          </NavLink>
           <div className='footer_info'>
             <ul>
               <li>Yenilikler</li>

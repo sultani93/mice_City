@@ -16,7 +16,7 @@
 .about-wrap .aboutHeading {
   text-align: center;
   font-size: 48px;
-  width: 36%;
+  width: 40%;
   /* padding-bottom: 36px; */
 }
 .about-wrap .aboutHeading h2 {
@@ -24,6 +24,7 @@
   width: max-content;
   margin: 0 auto;
   font-weight: 400;
+  color: #172e40;
   margin-bottom: 24px;
 }
 .aboutImg {
@@ -62,6 +63,7 @@
 .aboutInfo h3 {
   font-size: 32px;
   font-weight: 400;
+  color: #172e40;
 }
 .aboutInfo .aboutText {
   margin-top: 3rem;
@@ -74,10 +76,13 @@
 .aboutText h4 {
   font-weight: 600;
   font-size: 15px;
+  color: #172e40;
 }
 .whyWe p,
 .aboutText p {
-  margin-top: 4px;
+  margin-top: 8px;
   font-size: 14px;
   line-height: 18px;
+  font-weight: 600;
+  color: rgba(169, 169, 169, 0.9);
 }

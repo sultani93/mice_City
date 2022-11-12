@@ -12,7 +12,7 @@
 
 .home {
   color: #fff;
-  height: 100vh;
+  height: calc(100vh - 80px);
   position: relative;
 }
 .home:before {

@@ -1,5 +1,4 @@
 import './header.css'
-import { Link } from 'react-scroll'
 import logo from '../../components/images/logo.PNG'
 import { NavLink } from 'react-router-dom'
 
