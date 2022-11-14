@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mice_City/static/css/main.cb5ed7ba.css",
+    "main.css": "/mice_City/static/css/main.6217f4d4.css",
     "main.js": "/mice_City/static/js/main.2aed90b6.js",
     "static/media/heyder_aliyev_airport.jpg": "/mice_City/static/media/heyder_aliyev_airport.c460d297a3db2da6e9b0.jpg",
     "static/media/Untitled-1.jpg": "/mice_City/static/media/Untitled-1.fb6bbd4cdc71492bef21.jpg",
@@ -9,15 +9,17 @@
     "static/media/border.jpg": "/mice_City/static/media/border.0f2a2eb923844942e37c.jpg",
     "static/media/ArtegraSans-Bold.otf": "/mice_City/static/media/ArtegraSans-Bold.9556d0e3478359791e05.otf",
     "static/media/ArtegraSans-Regular.otf": "/mice_City/static/media/ArtegraSans-Regular.c1d0a11d06a94be4cca2.otf",
+    "static/media/ArtegraSansAlt-SemiBold.otf": "/mice_City/static/media/ArtegraSansAlt-SemiBold.dd04857f08392a3d2bc1.otf",
+    "static/media/ArtegraSansAlt-Light.otf": "/mice_City/static/media/ArtegraSansAlt-Light.ab9fa4f4c76d46f06292.otf",
     "static/media/mice_project.png": "/mice_City/static/media/mice_project.b7e0b221006f4fd6db6c.png",
     "static/media/logo.PNG": "/mice_City/static/media/logo.77bef86eabe6f4be6033.PNG",
     "index.html": "/mice_City/index.html",
     "static/media/about1.svg": "/mice_City/static/media/about1.7a6ee55ab18c4f600239.svg",
-    "main.cb5ed7ba.css.map": "/mice_City/static/css/main.cb5ed7ba.css.map",
+    "main.6217f4d4.css.map": "/mice_City/static/css/main.6217f4d4.css.map",
     "main.2aed90b6.js.map": "/mice_City/static/js/main.2aed90b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb5ed7ba.css",
+    "static/css/main.6217f4d4.css",
     "static/js/main.2aed90b6.js"
   ]
 }
