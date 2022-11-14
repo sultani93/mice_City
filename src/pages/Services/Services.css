@@ -1,5 +1,5 @@
 .services {
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
   background-color: rgb(240 240 240 / 26%);
   background-image: url('../../components/images/mice_project.png');
   background-size: cover;
