@@ -33,10 +33,11 @@
   width: fit-content;
   margin: 2rem auto 0;
 }
-.our_services p {
-  max-width: 600px;
+.our_services > p {
+  max-width: 800px;
   margin: 2rem auto;
   color: #172e40;
+  font-family: Regular;
 }
 .services_card {
   background-color: #fff;
@@ -57,18 +58,22 @@
   cursor: pointer;
 }
 .services_heading:hover {
-  background-color: #80a4be;
+  background-color: #abdcf4;
   transform: scale(1.01);
 }
 .services_heading h3 {
   font-size: 32px;
+  font-family: Thin;
   text-transform: uppercase;
   margin: 1rem auto;
-  font-weight: 400;
   background-color: rgb(219 171 168);
   width: fit-content;
-  padding: 12px;
+  padding: 0 12px;
+  letter-spacing: 1px;
   color: #172e40;
+}
+.services_heading p {
+  color: #cccccc;
 }
 .services_heading:hover p,
 .services_heading:hover h3 {
@@ -82,7 +87,7 @@
 .services_heading button {
   width: 100%;
   border: 0;
-  background-color: #80a4be;
+  background-color: #abdcf4;
   color: #fff;
   padding: 12px 8px;
   border-radius: 12px;
@@ -94,5 +99,5 @@
 
 .services_heading:hover button {
   background-color: #fff;
-  color: #80a4be;
+  color: #abdcf4;
 }

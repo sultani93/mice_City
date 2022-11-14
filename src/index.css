@@ -12,9 +12,18 @@
     url(./fonts/Artegra/ArtegraSans-Bold.otf) format('truetype');
 }
 @font-face {
+  font-family: 'SemiBold';
+  src: local('SemiBold'),
+    url(./fonts/Artegra/ArtegraSansAlt-SemiBold.otf) format('truetype');
+}
+@font-face {
   font-family: 'Regular';
   src: local('Regular'),
     url(./fonts/Artegra/ArtegraSans-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Thin';
+  src: local('Thin'), url(./fonts/Artegra/ArtegraSansAlt-Light.otf);
 }
 
 * {
@@ -32,4 +41,72 @@ a {
 }
 .App {
   overflow: hidden;
+}
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+.loader-container img {
+  width: 100%;
+  height: 100%;
+}
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

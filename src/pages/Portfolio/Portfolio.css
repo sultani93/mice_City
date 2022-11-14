@@ -31,8 +31,8 @@
   padding: 8px;
   margin-top: 2rem;
   font-size: 18px;
-  color: rgb(33 176 237);
-  border-bottom: 1px solid rgb(33 176 237);
+  color: #5eb2d3;
+  border-bottom: 1px solid #5eb2d3;
   display: inline-block;
   margin-bottom: 36px;
 }
@@ -49,11 +49,12 @@
   flex-basis: calc(33% - 48px);
   transition: 0.3s;
 }
+
 .party:hover img {
   transform: scale(0.92);
 }
 .party:hover .img-wrapper {
-  background: rgb(163 215 237);
+  background: #abdcf4;
   border-radius: 24px;
   display: flex;
   align-items: center;
@@ -68,12 +69,15 @@
 .party h5,
 .party p {
   text-align: left;
+  color: #172e40;
 }
 
 .party h5 {
   margin-top: 24px;
+  font-size: 16px;
 }
 .party p {
   margin-top: 16px;
   font-size: 14px;
+  font-family: Thin;
 }

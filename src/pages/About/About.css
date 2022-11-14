@@ -75,7 +75,7 @@
 
 .whyWe h4,
 .aboutText h4 {
-  font-weight: 600;
+  font-family: Regular;
   font-size: 15px;
   color: #172e40;
 }
@@ -84,6 +84,6 @@
   margin-top: 8px;
   font-size: 14px;
   line-height: 18px;
-  font-weight: 600;
-  color: rgba(169, 169, 169, 0.9);
+  font-family: Regular;
+  color: #999999;
 }
