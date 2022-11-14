@@ -19,16 +19,16 @@
   margin: 0 auto;
 }
 
-.our_team .our_suggests {
+.our_team .our_suggest {
   text-align: center;
 }
-.our_team .our_suggests h2 {
+.our_team .our_suggest h2 {
   font-size: 48px;
   padding: 8px;
   color: #172e40;
   margin: 4rem auto;
 }
-.our_suggests .teamDetails {
+.our_suggest .teamDetails {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,14 +40,14 @@
   position: relative;
 }
 
-.our_suggests .teamDetails .teamPart {
+.our_suggest .teamDetails .teamPart {
   width: calc(100% / 4 - 3rem);
   /* overflow: hidden; */
   height: auto;
   position: relative;
 }
 
-.our_suggests .teamDetails .teamPart .team-absolute .teamImg {
+.our_suggest .teamDetails .teamPart .team-absolute .teamImg {
   border-radius: 50%;
   padding: 12px;
   width: 100%;
@@ -55,17 +55,17 @@
   background-color: rgba(171, 220, 244);
 }
 
-.our_suggests .teamDetails .teamPart img {
+.our_suggest .teamDetails .teamPart img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   vertical-align: bottom;
   border-radius: 50%;
 }
-.our_suggests .teamDetails .teamPart .teamInfo {
+.our_suggest .teamDetails .teamPart .teamInfo {
   margin-top: 16px;
 }
-.our_suggests .teamDetails .teamPart .teamInfo p:first-child {
+.our_suggest .teamDetails .teamPart .teamInfo p:first-child {
   width: 110px;
   margin: 0 auto 8px;
   color: #172e40;
@@ -73,17 +73,17 @@
 
   /* background-color: rgb(219 171 168); */
 }
-.our_suggests .teamDetails .teamPart p:nth-child(2) {
+.our_suggest .teamDetails .teamPart p:nth-child(2) {
   color: #abdcf4;
 }
 
-.our_suggests .teamDetails .teamPart .teamInfo p:last-child {
+.our_suggest .teamDetails .teamPart .teamInfo p:last-child {
   display: none;
 }
 
 /* Hover Card Effect */
 
-.our_suggests .teamDetails .teamPart .team-absolute:hover {
+.our_suggest .teamDetails .teamPart .team-absolute:hover {
   position: absolute;
   top: -200px;
   left: -45px;
@@ -95,7 +95,7 @@
   border-radius: 12px;
   overflow: hidden;
 }
-.our_suggests .teamDetails .teamPart .team-absolute:hover .teamImg {
+.our_suggest .teamDetails .teamPart .team-absolute:hover .teamImg {
   width: 100%;
   height: 160px;
   border-radius: 0;
@@ -104,13 +104,13 @@
   background: none;
   padding: 0;
 }
-.our_suggests .teamDetails .teamPart .team-absolute:hover .teamImg img {
+.our_suggest .teamDetails .teamPart .team-absolute:hover .teamImg img {
   border-radius: 0;
   object-position: top;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-.our_suggests .teamDetails .teamPart .team-absolute:hover .teamInfo {
+.our_suggest .teamDetails .teamPart .team-absolute:hover .teamInfo {
   background-color: #fff;
   margin: 0;
   padding-top: 12px;
@@ -119,7 +119,7 @@
   border-bottom-right-radius: 12px;
   height: 57%;
 }
-.our_suggests .teamDetails .teamPart .team-absolute:hover p:last-child {
+.our_suggest .teamDetails .teamPart .team-absolute:hover p:last-child {
   font-size: 14px;
   padding: 12px;
   padding-bottom: 0;
@@ -131,10 +131,10 @@
   font-family: Thin;
 }
 
-.our_suggests .teamDetails .teamPart .team-absolute:hover p:nth-child(2) {
+.our_suggest .teamDetails .teamPart .team-absolute:hover p:nth-child(2) {
   margin-bottom: 4px;
   color: #abdcf4;
 }
-.our_suggests .teamDetails .teamPart .team-absolute:hover p:first-child {
+.our_suggest .teamDetails .teamPart .team-absolute:hover p:first-child {
   width: 100%;
 }

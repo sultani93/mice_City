@@ -65,7 +65,7 @@ const OurTeam = () => {
     <div className='our_team' id='ourTeam'>
       <div className='container'>
         <div className='content'>
-          <div className='our_suggests'>
+          <div className='our_suggest'>
             <h2>Our Team</h2>
             <div className='teamDetails'>
               {team.map((item, index) => (
