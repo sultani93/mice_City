@@ -3,8 +3,14 @@ import React, { Component } from 'react'
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react'
 const mapwrapper = {
   width: '100%',
-  height: '50vh',
+  height: '200px',
+  overflow: 'hidden',
 }
+const center = {
+  lat: 40.4093,
+  lng: 49.8671,
+}
+
 export class MapContainer extends Component {
   render() {
     return (
@@ -12,12 +18,13 @@ export class MapContainer extends Component {
         style={mapwrapper}
         class='mapView'
         google={this.props.google}
-        zoom={14}
+        zoom={10}
+        center={{ lat: 40.4093, lng: 49.8671 }}
       >
         <Marker
           title={'The marker`s title will appear as a tooltip.'}
           name={'SOMA'}
-          position={{ lat: 37.778519, lng: -122.40564 }}
+          position={{ lat: center.lat, lng: center.lng }}
         />
         <InfoWindow onClose={this.onInfoWindowClose}></InfoWindow>
       </Map>

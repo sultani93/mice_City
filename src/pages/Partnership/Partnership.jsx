@@ -2,7 +2,6 @@ import React from 'react'
 import './Partnership.css'
 import border from '../../components/images/border.jpg'
 import partner from '../../components/images/partners.png'
-import MapContainer from '../MapContainer/MapContainer'
 
 const Partnership = () => {
   const partners = [
@@ -42,9 +41,6 @@ const Partnership = () => {
             ))}
           </div>
         </div>
-      </div>
-      <div className='map_container'>
-        <MapContainer />
       </div>
     </div>
   )
