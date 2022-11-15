@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mice_City/static/css/main.8f2088e1.css",
-    "main.js": "/mice_City/static/js/main.b195ed31.js",
+    "main.css": "/mice_City/static/css/main.aeba63f6.css",
+    "main.js": "/mice_City/static/js/main.95cadc07.js",
     "static/media/heyder_aliyev_airport.jpg": "/mice_City/static/media/heyder_aliyev_airport.c460d297a3db2da6e9b0.jpg",
     "static/media/Untitled-1.jpg": "/mice_City/static/media/Untitled-1.fb6bbd4cdc71492bef21.jpg",
     "static/media/Untitled-2.jpg": "/mice_City/static/media/Untitled-2.4796a53b365c566aec60.jpg",
@@ -16,11 +16,11 @@
     "static/media/logo.PNG": "/mice_City/static/media/logo.77bef86eabe6f4be6033.PNG",
     "index.html": "/mice_City/index.html",
     "static/media/about1.svg": "/mice_City/static/media/about1.7a6ee55ab18c4f600239.svg",
-    "main.8f2088e1.css.map": "/mice_City/static/css/main.8f2088e1.css.map",
-    "main.b195ed31.js.map": "/mice_City/static/js/main.b195ed31.js.map"
+    "main.aeba63f6.css.map": "/mice_City/static/css/main.aeba63f6.css.map",
+    "main.95cadc07.js.map": "/mice_City/static/js/main.95cadc07.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f2088e1.css",
-    "static/js/main.b195ed31.js"
+    "static/css/main.aeba63f6.css",
+    "static/js/main.95cadc07.js"
   ]
 }
